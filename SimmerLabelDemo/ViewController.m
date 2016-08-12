@@ -23,7 +23,7 @@
 //    self.view.backgroundColor = [UIColor grayColor];
     
     _label = [[SimmerLabel alloc] init];
-    _label.text = @"> 滑动来解锁第三方速度快放假埃里克森积分卡萨";
+    _label.text = @"> 滑动来解锁屏幕";
     _label.frame = CGRectMake(0, 0, 200, 50);
     _label.center = self.view.center;
     _label.textAlignment = NSTextAlignmentCenter;

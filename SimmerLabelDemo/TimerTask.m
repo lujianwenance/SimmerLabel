@@ -51,6 +51,7 @@
 - (void)addTimer:(NSTimer *)timer target:(id)target {
     
     pthread_mutex_lock(&_lock);
+    [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
     [_timers setObject:timer forKey:[self keyOfTarget:target]];
     pthread_mutex_unlock(&_lock);
 }
