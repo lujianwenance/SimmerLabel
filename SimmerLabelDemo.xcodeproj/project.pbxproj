@@ -16,6 +16,7 @@
 		0BB89EF01D5D696B00E9CB1F /* SimmerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB89EEF1D5D696B00E9CB1F /* SimmerLabel.m */; };
 		0BB89EF51D5DB02D00E9CB1F /* TimerTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB89EF41D5DB02D00E9CB1F /* TimerTask.m */; };
 		0BB89EFB1D5DB11B00E9CB1F /* NSArray+DataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB89EFA1D5DB11B00E9CB1F /* NSArray+DataType.m */; };
+		0BB89EFD1D5DC49900E9CB1F /* simmerLabel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0BB89EFC1D5DC49900E9CB1F /* simmerLabel.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		0BB89EF41D5DB02D00E9CB1F /* TimerTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerTask.m; sourceTree = "<group>"; };
 		0BB89EF91D5DB11B00E9CB1F /* NSArray+DataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DataType.h"; sourceTree = "<group>"; };
 		0BB89EFA1D5DB11B00E9CB1F /* NSArray+DataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DataType.m"; sourceTree = "<group>"; };
+		0BB89EFC1D5DC49900E9CB1F /* simmerLabel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simmerLabel.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		0BB89ECB1D5D693600E9CB1F = {
 			isa = PBXGroup;
 			children = (
+				0BB89EFC1D5DC49900E9CB1F /* simmerLabel.gif */,
 				0BB89ED61D5D693700E9CB1F /* SimmerLabelDemo */,
 				0BB89ED51D5D693700E9CB1F /* Products */,
 			);
@@ -152,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB89EFD1D5DC49900E9CB1F /* simmerLabel.gif in Resources */,
 				0BB89EE71D5D693800E9CB1F /* LaunchScreen.storyboard in Resources */,
 				0BB89EE41D5D693800E9CB1F /* Assets.xcassets in Resources */,
 				0BB89EE21D5D693800E9CB1F /* Main.storyboard in Resources */,
@@ -319,6 +323,7 @@
 				0BB89EED1D5D693800E9CB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
